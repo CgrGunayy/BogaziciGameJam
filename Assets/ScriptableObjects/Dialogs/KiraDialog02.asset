@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc617bdf26bf4a4458bd04d5f9bf9d1e, type: 3}
+  m_Name: KiraDialog02
+  m_EditorClassIdentifier: 
+  dialog:
+  - speaker: {fileID: 11400000, guid: 426957d0525425e439b59aee83345e8e, type: 2}
+    content: Oo karga efendi!
+    onAutomaticSkip: 1
+    automaticSkipDelay: 2.5
+    speechSound: {fileID: 8300000, guid: 8972520da28ea6746aa95092ade78844, type: 3}
+  - speaker: {fileID: 11400000, guid: 426957d0525425e439b59aee83345e8e, type: 2}
+    content: "Ka\xE7 g\xFCn oldu fark\u0131nda m\u0131s\u0131n?"
+    onAutomaticSkip: 1
+    automaticSkipDelay: 3
+    speechSound: {fileID: 8300000, guid: eb4a14fdbb4e40d4c955cbba5a481ffe, type: 3}
+  - speaker: {fileID: 11400000, guid: 4af53f861546d414a9d3738d061212ea, type: 2}
+    content: Eeh...
+    onAutomaticSkip: 1
+    automaticSkipDelay: 1.5
+    speechSound: {fileID: 8300000, guid: ad2f1d0f048af2247acd74aaccf949a5, type: 3}
+  - speaker: {fileID: 11400000, guid: 4af53f861546d414a9d3738d061212ea, type: 2}
+    content: "Peri yard\u0131m et!"
+    onAutomaticSkip: 1
+    automaticSkipDelay: 2
+    speechSound: {fileID: 8300000, guid: 42a0219cc8717ba4695d65166d048b82, type: 3}
+  onlyOneDialog: 1
+  dialogFinishEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: a1bf299cfc8905a469b68833dd0d34fe, type: 2}
+        m_MethodName: LoadMinigame
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: Word
+          m_BoolArgument: 0
+        m_CallState: 2

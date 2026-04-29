@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc617bdf26bf4a4458bd04d5f9bf9d1e, type: 3}
+  m_Name: MinikKusDialog02
+  m_EditorClassIdentifier: 
+  dialog:
+  - speaker: {fileID: 11400000, guid: fef38f5db5b0d8545b45e7fe71f806f9, type: 2}
+    content: "U\xE7urtmam a\u011Faca tak\u0131ld\u0131!"
+    onAutomaticSkip: 1
+    automaticSkipDelay: 3
+    speechSound: {fileID: 8300000, guid: d8730229d88bd7f49936fb98255d9edd, type: 3}
+  - speaker: {fileID: 11400000, guid: 4af53f861546d414a9d3738d061212ea, type: 2}
+    content: "... yard\u0131m etmemi ister misin?"
+    onAutomaticSkip: 1
+    automaticSkipDelay: 3
+    speechSound: {fileID: 8300000, guid: ad2f1d0f048af2247acd74aaccf949a5, type: 3}
+  - speaker: {fileID: 11400000, guid: fef38f5db5b0d8545b45e7fe71f806f9, type: 2}
+    content: "Olur, \xE7ok te\u015Fekk\xFCr ederim!"
+    onAutomaticSkip: 1
+    automaticSkipDelay: 3
+    speechSound: {fileID: 8300000, guid: ea3a9d411f34d4b449a81531682c1410, type: 3}
+  onlyOneDialog: 1
+  dialogFinishEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: a1bf299cfc8905a469b68833dd0d34fe, type: 2}
+        m_MethodName: LoadMinigame
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

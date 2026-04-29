@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc617bdf26bf4a4458bd04d5f9bf9d1e, type: 3}
+  m_Name: BossDialog01
+  m_EditorClassIdentifier: 
+  dialog:
+  - speaker: {fileID: 11400000, guid: 5ee4dad954e18dc4898aedcb454536b8, type: 2}
+    content: "\xDCzg\xFCn\xFCm, senin maa\u015F\u0131n biraz gecikecek."
+    onAutomaticSkip: 1
+    automaticSkipDelay: 3.5
+    speechSound: {fileID: 8300000, guid: 9df2741d9ef9da9438bd9641025bcf2d, type: 3}
+  - speaker: {fileID: 11400000, guid: 5ee4dad954e18dc4898aedcb454536b8, type: 2}
+    content: "Biliyorsun i\u015Fler son zamanlarda biraz k\u0131t."
+    onAutomaticSkip: 1
+    automaticSkipDelay: 3.5
+    speechSound: {fileID: 8300000, guid: 889c3791b4702604a954127f8fe5961a, type: 3}
+  - speaker: {fileID: 11400000, guid: 4af53f861546d414a9d3738d061212ea, type: 2}
+    content: "... sorun de\u011Fil ama benim de kiram\u0131 \xF6demem laz\u0131m.
+      L\xFCtfen elini biraz \xE7abuk tut."
+    onAutomaticSkip: 1
+    automaticSkipDelay: 5
+    speechSound: {fileID: 8300000, guid: 42a0219cc8717ba4695d65166d048b82, type: 3}
+  - speaker: {fileID: 11400000, guid: 5ee4dad954e18dc4898aedcb454536b8, type: 2}
+    content: "Hadi m\xFC\u015Fteri ka\xE7mas\u0131n, i\u015F ba\u015F\u0131na!"
+    onAutomaticSkip: 1
+    automaticSkipDelay: 3.25
+    speechSound: {fileID: 8300000, guid: 0e1c8256c796a0946a8122f5b4eff8b9, type: 3}
+  onlyOneDialog: 1
+  dialogFinishEvent:
+    m_PersistentCalls:
+      m_Calls: []

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc617bdf26bf4a4458bd04d5f9bf9d1e, type: 3}
+  m_Name: BossDialog02
+  m_EditorClassIdentifier: 
+  dialog:
+  - speaker: {fileID: 11400000, guid: 5ee4dad954e18dc4898aedcb454536b8, type: 2}
+    content: "Her \u015Fey... her \u015Fey gitti. Ne istediniz benim marketimden."
+    onAutomaticSkip: 1
+    automaticSkipDelay: 3.5
+    speechSound: {fileID: 8300000, guid: 0e1c8256c796a0946a8122f5b4eff8b9, type: 3}
+  - speaker: {fileID: 11400000, guid: 5ee4dad954e18dc4898aedcb454536b8, type: 2}
+    content: "Kimseye bir zarar\u0131m, bir k\xF6t\xFCl\xFC\u011F\xFCm yok."
+    onAutomaticSkip: 1
+    automaticSkipDelay: 3.25
+    speechSound: {fileID: 8300000, guid: 5b1a887f6b9220e40a4b0ffcad470941, type: 3}
+  - speaker: {fileID: 11400000, guid: 5ee4dad954e18dc4898aedcb454536b8, type: 2}
+    content: "Sen... hep senin ba\u015F\u0131n\u0131n alt\u0131ndan \xE7\u0131k\u0131yor
+      b\xFCt\xFCn bu olanlar, de\u011Fil mi!"
+    onAutomaticSkip: 1
+    automaticSkipDelay: 4.5
+    speechSound: {fileID: 8300000, guid: 889c3791b4702604a954127f8fe5961a, type: 3}
+  - speaker: {fileID: 11400000, guid: 5ee4dad954e18dc4898aedcb454536b8, type: 2}
+    content: "Kaybol buradan, sak\u0131n bir daha kar\u015F\u0131ma \xE7\u0131kma."
+    onAutomaticSkip: 1
+    automaticSkipDelay: 4.5
+    speechSound: {fileID: 8300000, guid: 16a89c3a479599b4eac07780a10fbf73, type: 3}
+  - speaker: {fileID: 11400000, guid: 5ee4dad954e18dc4898aedcb454536b8, type: 2}
+    content: "Maa\u015F falan da bekleme. Faydandan \xE7ok zarar\u0131n dokundu zaten."
+    onAutomaticSkip: 1
+    automaticSkipDelay: 4.5
+    speechSound: {fileID: 8300000, guid: 9df2741d9ef9da9438bd9641025bcf2d, type: 3}
+  - speaker: {fileID: 11400000, guid: 4af53f861546d414a9d3738d061212ea, type: 2}
+    content: ...
+    onAutomaticSkip: 1
+    automaticSkipDelay: 2.75
+    speechSound: {fileID: 8300000, guid: ad2f1d0f048af2247acd74aaccf949a5, type: 3}
+  onlyOneDialog: 1
+  dialogFinishEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: c1491f87409d52f4ab0c99d784b092f0, type: 2}
+        m_MethodName: ActivateFinalCutscene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

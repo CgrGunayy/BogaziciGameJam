@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc617bdf26bf4a4458bd04d5f9bf9d1e, type: 3}
+  m_Name: "Bayku\u015FDialog01"
+  m_EditorClassIdentifier: 
+  dialog:
+  - speaker: {fileID: 11400000, guid: c18ec9529eb78ae4283f43b6040ee67d, type: 2}
+    content: "Karde\u015F bir bakar m\u0131s\u0131n?"
+    onAutomaticSkip: 1
+    automaticSkipDelay: 3
+    speechSound: {fileID: 8300000, guid: 7ff186ced92441642a0a0a2bd56504da, type: 3}
+  - speaker: {fileID: 11400000, guid: 4af53f861546d414a9d3738d061212ea, type: 2}
+    content: ... buyur?
+    onAutomaticSkip: 1
+    automaticSkipDelay: 1.5
+    speechSound: {fileID: 8300000, guid: 89fe2a13351ce1349a8bd6d62b891da5, type: 3}
+  - speaker: {fileID: 11400000, guid: c18ec9529eb78ae4283f43b6040ee67d, type: 2}
+    content: "Binay\u0131 y\xF6netmek- \xF6h\xF6m"
+    onAutomaticSkip: 1
+    automaticSkipDelay: 1
+    speechSound: {fileID: 8300000, guid: 9aaaa3828509b0b4584ca2ef2775d8a3, type: 3}
+  - speaker: {fileID: 11400000, guid: c18ec9529eb78ae4283f43b6040ee67d, type: 2}
+    content: "Yani belediyemiz gecekonduda ya\u015Fayanlara destek vermedi\u011Fi
+      i\xE7in bir imza kampanyas\u0131 ba\u015Flatt\u0131k. Bir el atsan?"
+    onAutomaticSkip: 1
+    automaticSkipDelay: 6
+    speechSound: {fileID: 8300000, guid: 9aaaa3828509b0b4584ca2ef2775d8a3, type: 3}
+  - speaker: {fileID: 11400000, guid: 4af53f861546d414a9d3738d061212ea, type: 2}
+    content: Hm...
+    onAutomaticSkip: 1
+    automaticSkipDelay: 2.5
+    speechSound: {fileID: 8300000, guid: ad2f1d0f048af2247acd74aaccf949a5, type: 3}
+  - speaker: {fileID: 11400000, guid: acf6a4e0431fd39438f0710946e90855, type: 2}
+    content: "Aha, iyilik yapmak i\xE7in bir f\u0131rsat. Ne duruyorsun?"
+    onAutomaticSkip: 1
+    automaticSkipDelay: 3.5
+    speechSound: {fileID: 8300000, guid: 21fad7cdf04c1424392dc6031fb77b93, type: 3}
+  - speaker: {fileID: 11400000, guid: 4af53f861546d414a9d3738d061212ea, type: 2}
+    content: Peki o zaman.
+    onAutomaticSkip: 1
+    automaticSkipDelay: 2
+    speechSound: {fileID: 8300000, guid: 89fe2a13351ce1349a8bd6d62b891da5, type: 3}
+  - speaker: {fileID: 11400000, guid: c18ec9529eb78ae4283f43b6040ee67d, type: 2}
+    content: "\u0130sim, soyisim, imza \u015F\xF6yle buyurun."
+    onAutomaticSkip: 1
+    automaticSkipDelay: 4.25
+    speechSound: {fileID: 8300000, guid: 9fe8195031038cc43a55a4ea321f0dc3, type: 3}
+  - speaker: {fileID: 11400000, guid: c18ec9529eb78ae4283f43b6040ee67d, type: 2}
+    content: "\xC7ok sa\u011Folun, g\xF6r\xFC\u015Fmek \xFCzere."
+    onAutomaticSkip: 1
+    automaticSkipDelay: 5
+    speechSound: {fileID: 8300000, guid: 9aaaa3828509b0b4584ca2ef2775d8a3, type: 3}
+  onlyOneDialog: 1
+  dialogFinishEvent:
+    m_PersistentCalls:
+      m_Calls: []
